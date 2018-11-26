@@ -12,7 +12,7 @@ const writeFile = util.promisify( fs.writeFile );
 
 // Handle CLI
 program
-    .version( '0.0.1' )
+    .version( '0.1.1' )
     .option( '-a --address [address]', 'Addresses to check. Multiple addresses can be passed as a space-separated string.' )
     .parse( process.argv );
 
