@@ -5,9 +5,13 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "main": "runaudit.js",
+  "main": "./a11y-audit.js",
+  "bin": {
+    "a11y-audit": "./bin/a11y-audit.js"
+  },
+  "preferGlobal": true,
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "check-valid-url": "0.0.2",
     "commander": "^2.19.0",
