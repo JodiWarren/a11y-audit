@@ -8,7 +8,7 @@
   "main": "runaudit.js",
   "author": "",
   "license": "ISC",
-  "devDependencies": {
+  "dependencies": {
     "check-valid-url": "0.0.2",
     "commander": "^2.19.0",
     "filenamify": "^2.1.0",
